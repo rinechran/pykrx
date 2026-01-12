@@ -28,4 +28,4 @@ __all__ = [
     'set_krx_login_info'
 ]
 
-__version__ = '1.1.00'
+__version__ = '1.1.01'
