@@ -5,12 +5,13 @@ with open("README.md", "r", encoding='UTF-8') as fh:
     long_description = fh.read()
 
 setup(
-    name='pykrx',
+    name='pyDatakrx',
     version=__version__,
     description='KRX data scraping',
-    url='https://github.com/sharebook-kr/pykrx/',
+    url='https://github.com/rinechran/pykrx/',
     author='Brayden Jo, Jonghun Yoo',
-    author_email=('brayden.jo@outlook.com, '
+    author_email=('rinechran@gmail.com, '
+                  'brayden.jo@outlook.com, '
                   'jonghun.yoo@outlook.com, '
                   'pystock@outlook.com'),
     long_description=long_description,
