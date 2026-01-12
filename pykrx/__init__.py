@@ -4,6 +4,7 @@ import matplotlib.font_manager as fm
 import importlib.resources as resources
 from . import bond
 from . import stock
+from pykrx.website.comm.webio import set_krx_login_info
 
 os = platform.system()
 
@@ -23,7 +24,8 @@ plt.rcParams['axes.unicode_minus'] = False
 
 __all__ = [
     'bond',
-    'stock'
+    'stock',
+    'set_krx_login_info'
 ]
 
-__version__ = '1.0.51'
+__version__ = '1.1.00'

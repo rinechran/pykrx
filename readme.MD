@@ -8,13 +8,25 @@
 pykrx는 pip을 사용해서 쉽게 설치할 수 있습니다.
 
 ```
-pip install pykrx
+pip install pyDatakrx
 ```
 
 pykrx는 증권시장의 주식 정보를 스크래핑 합니다. 모듈의 사용은 import부터 시작합니다.
 ```
-from pykrx import stock
-from pykrx import bond
+from pyDatakrx import stock
+from pyDatakrx import bond
+```
+
+### 1.2 로그인 설정
+KRX 서버와의 통신을 위해 로그인이 필요합니다. 아래와 같이 로그인 정보를 설정할 수 있습니다.
+```python
+import pyDatakrx
+
+# 로그인 정보 설정 (최초 1회 실행 필요)
+pykrx.set_krx_login_info(
+    mbrId="your_id",  # 아이디
+    pw="your_password",  # 비밀번호
+)
 ```
 
 ## 2. API 설명
