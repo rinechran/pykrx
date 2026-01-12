@@ -1,5 +1,5 @@
 from abc import abstractmethod
-from pykrx.website.comm.webio import Get, Post
+from pydatakrx.website.comm.webio import Get, Post
 import pandas as pd
 import time
 

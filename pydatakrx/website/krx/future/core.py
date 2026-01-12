@@ -1,4 +1,4 @@
-from pykrx.website.krx.krxio import KrxFutureIo, KrxWebIo
+from pydatakrx.website.krx.krxio import KrxFutureIo, KrxWebIo
 import pandas as pd
 from pandas import DataFrame
 

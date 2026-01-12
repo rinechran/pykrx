@@ -1,11 +1,10 @@
-from setuptools import setup, find_packages
-from pykrx import __version__
+from setuptools import setup, find_packages, __version__
 
-with open("README.md", "r", encoding='UTF-8') as fh:
+with open("readme.md", "r", encoding='UTF-8') as fh:
     long_description = fh.read()
 
 setup(
-    name='pyDatakrx',
+    name='pydatakrx',
     version=__version__,
     description='KRX data scraping',
     url='https://github.com/rinechran/pykrx/',
@@ -19,9 +18,9 @@ setup(
     install_requires=['requests', 'pandas', 'datetime', 'numpy', 'xlrd',
                       'deprecated', 'multipledispatch', 'matplotlib'],
     license='MIT',
-    packages=find_packages(include=['pykrx', 'pykrx.*', 'pykrx.stock.*']),
+    packages=find_packages(include=['pydatakrx', 'pydatakrx.*', 'pydatakrx.stock.*']),
     package_data={
-        'pykrx': ['*.ttf'],
+        'pydatakrx': ['*.ttf'],
     },
     python_requires='>=3',
     zip_safe=False

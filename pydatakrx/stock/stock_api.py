@@ -1,6 +1,6 @@
 from multipledispatch import dispatch
 from typing import overload
-from pykrx.website import krx, naver
+from pydatakrx.website import krx, naver
 import datetime
 import inspect
 import functools

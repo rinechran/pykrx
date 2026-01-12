@@ -1,5 +1,5 @@
-from pykrx.website.comm import dataframe_empty_handler
-from pykrx.website.krx.etx.core import (
+from pydatakrx.website.comm import dataframe_empty_handler
+from pydatakrx.website.krx.etx.core import (
     개별종목시세_ETF, 전종목시세_ETF, 전종목등락률_ETF, PDF, 추적오차율추이,
     괴리율추이, ETF_투자자별거래실적_기간합계, ETF_투자자별거래실적_일별추이,
     ETN_투자자별거래실적_개별종목_기간합계,
@@ -8,7 +8,7 @@ from pykrx.website.krx.etx.core import (
     ETF_투자자별거래실적_개별종목_일별추이,
 
 )
-from pykrx.website.krx.etx.ticker import get_etx_isin, is_etf
+from pydatakrx.website.krx.etx.ticker import get_etx_isin, is_etf
 import numpy as np
 import pandas as pd
 from pandas import DataFrame
